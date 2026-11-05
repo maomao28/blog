@@ -108,8 +108,4 @@ theme: aircloud
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-    type: 'git'
-    repo: 'git@github.com:delicious28/delicious28.github.io.git'
-    branch: 'gh-pages'
-    message: 'publish site'
-    github-token: '005d07f8abdbeaa10f28691e48e8fdf4a6cea18a'
+    type: ''   # 已迁移到 Netlify 构建部署，不再用 hexo deploy 推 gh-pages
